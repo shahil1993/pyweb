@@ -6,7 +6,7 @@ app = Flask(__name__)
 def main():
     return render_template('index.html')
 
-@app.route('/showSignUp')
+@app.route('/showSignUp',methods=['POST'])
 def showSignUp():
     return render_template('signup.html')
 
