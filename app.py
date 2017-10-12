@@ -34,8 +34,8 @@ def makeWebhookResult(req):
     if req.get("result").get("action") != "pyweb":
         return {}
     result = req.get("result")
-    parameters = result.get("parameters")
-    ctry = parameters.get("geo-country")
+    #parameters = result.get("parameters")
+    #ctry = parameters.get("geo-country")
     
     render_template('signup.html')
     
