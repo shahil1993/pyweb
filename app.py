@@ -41,7 +41,7 @@ def makeWebhookResult(req):
     
    # cost = {'Europe':100, 'North America':200, 'South America':300, 'Asia':400, 'Africa':500}
 
-    speech = ctry + " is done " 
+    speech = "Your request is done " 
     #speech = ctry + "is in " + "Asia" + " continent"
     print("Response:")
     print(speech)
